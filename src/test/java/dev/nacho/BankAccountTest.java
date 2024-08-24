@@ -42,6 +42,8 @@ public class BankAccountTest {
        BankAccount account = new BankAccount(1000F, 12F);
        account.withdrawMoney(200);
        assertEquals(800, account.balance);
+       assertEquals(1, account.withdrawal);
+
     }
 
     @Test

@@ -44,4 +44,8 @@ public class SavingsAccount extends BankAccount {
         sb.append("transactions: ").append(consignments + withdrawal).append(", ");
         return sb.toString();
     }
+
+    public boolean isActive() {
+        return active;
+    }
 }

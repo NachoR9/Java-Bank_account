@@ -17,7 +17,7 @@ public class BankAccount {
             return;
         }
         balance += amount;
-            consignments++;
+        consignments++;
     }
 
     public void withdrawMoney(float amount) {
@@ -25,6 +25,7 @@ public class BankAccount {
             return;
         }
         balance -= amount;
+        withdrawal++;
     }
 
     public void monthlyInterest() {
