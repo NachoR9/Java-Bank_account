@@ -26,6 +26,10 @@ public class CheckingAccount extends BankAccount {
         }
     }
 
+    public float getOverdraft() {
+        return overdraft;
+    }
+
     @Override
     public void monthlyStatement() {
         super.monthlyStatement();
